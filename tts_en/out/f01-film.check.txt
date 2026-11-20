@@ -1,0 +1,178 @@
+f01-film: фраз 41, проверить: 1 34
+
+!!   1   67%    1.5 c
+    текст:   David versus Goliath.
+    услышано: David vs Goliath
+    пропущено: versus
+    лишнее: vs
+
+     2  100%    2.4 c
+    текст:   How a shepherd boy defeated a giant
+    услышано: how a shepherd boy defeated a giant.
+
+     3  100%    5.2 c
+    текст:   It is one of the best-known stories in the Bible. Here it is, just as Scripture tells it.
+    услышано: It is one of the best-known stories in the Bible. Here it is, just as scripture tells it.
+
+     4  100%    2.1 c
+    текст:   Chapter One. David is anointed.
+    услышано: Chapter 1. David is Anointed.
+
+     5  100%    4.4 c
+    текст:   The Lord rejected King Saul and sent the prophet Samuel to Bethlehem, to Jesse.
+    услышано: The Lord rejected King Saul and sent the prophet Samuel to Bethlehem, to Jesse.
+
+     6  100%    5.9 c
+    текст:   Samuel saw Jesse's eldest son, Eliab, and thought: surely this is the Lord's anointed.
+    услышано: Samuel saw Jesse's eldest son, Eliab, and thought, surely this is the Lord's anointed.
+
+     7   94%    6.2 c
+    текст:   For man looketh on the outward appearance, but the Lord looketh on the heart. First Samuel, chapter sixteen, verse seven.
+    услышано: For man looketh on the outward appearance, but the Lord looketh on the heart. 1 Samuel 16, verse 7.
+    пропущено: chapter
+
+     8  100%    4.2 c
+    текст:   Jesse brought seven of his sons before the prophet, but the Lord had chosen none of them.
+    услышано: Jesse brought seven of his sons before the prophet, but the Lord had chosen none of them.
+
+     9  100%    4.3 c
+    текст:   There remaineth yet the youngest, and, behold, he keepeth the sheep.
+    услышано: There remaineth yet the youngest, and behold, he keepeth the sheep.
+
+    10  100%    2.7 c
+    текст:   David was the youngest of Jesse's eight sons.
+    услышано: David was the youngest of Jesse's eight sons.
+
+    11  100%    6.7 c
+    текст:   Then Samuel took the horn of oil, and anointed him in the midst of his brethren: and the Spirit of the Lord came upon David from that day forward.
+    услышано: Then Samuel took the horn of oil, and anointed him in the midst of his brethren, and the Spirit of the Lord came upon David from that day forward.
+
+    12  100%    2.4 c
+    текст:   The name David most likely means: beloved.
+    услышано: The name David most likely means beloved.
+
+    13  100%    2.0 c
+    текст:   Chapter Two. The giant of Gath.
+    услышано: Chapter 2, The Giant of Gath
+
+    14  100%    4.9 c
+    текст:   The Philistines gathered their armies. Israel stood on a mountain opposite, with a valley between them.
+    услышано: The Philistines gathered their armies. Israel stood on a mountain opposite with a valley between them.
+
+    15  100%    3.1 c
+    текст:   Out of the Philistine camp came a champion named Goliath, of Gath.
+    услышано: Out of the Philistine camp came a champion named Goliath of Gath.
+
+    16  100%    2.2 c
+    текст:   Whose height was six cubits and a span.
+    услышано: whose height was 6 cubits and a span.
+
+    17  100%    4.8 c
+    текст:   He wore a helmet of brass and a coat of mail, and his spear's head weighed six hundred shekels of iron.
+    услышано: He wore a helmet of brass and a coat of mail, and his spear's head weighed 600 shekels of iron.
+
+    18  100%    3.7 c
+    текст:   He challenged Israel: Give me a man, that we may fight together.
+    услышано: He challenged Israel, give me a man that we may fight together.
+
+    19  100%    2.9 c
+    текст:   King Saul and all Israel were greatly afraid.
+    услышано: King Saul and all Israel were greatly afraid.
+
+    20  100%    2.3 c
+    текст:   Chapter Three. A shepherd with a sling.
+    услышано: Chapter 3, A Shepherd with a Sling
+
+    21  100%    3.1 c
+    текст:   His father sent David to the camp with bread for his brothers.
+    услышано: His father sent David to the camp with bread for his brothers.
+
+    22  100%    4.9 c
+    текст:   David heard the giant defy the armies of the living God, and he offered to go out against him.
+    услышано: David heard the giant defy the armies of the living God, and he offered to go out against him.
+
+    23   86%    2.6 c
+    текст:   Saul doubted: David was only a youth.
+    услышано: It's all doubted, David was only a youth.
+    пропущено: saul
+    лишнее: it's all
+
+    24  100%    5.0 c
+    текст:   David answered that while he kept the sheep, the Lord had delivered him from the lion and the bear.
+    услышано: David answered that while he kept the sheep, the Lord had delivered him from the lion and the bear.
+
+    25  100%    3.7 c
+    текст:   He trusted that the Lord would deliver him from this Philistine too.
+    услышано: He trusted that the Lord would deliver him from this Philistine too.
+
+    26   94%    4.8 c
+    текст:   Saul put his own armour on him, but David took it off: he had not proved it.
+    услышано: Saul put his own armor on him, but David took it off, he had not proved it.
+    пропущено: armour
+    лишнее: armor
+
+    27   90%    6.0 c
+    текст:   And he took his staff in his hand, and chose him five smooth stones out of the brook, and put them in a shepherd's bag.
+    услышано: and he took his staff in his hand and chosen five smooth stones out of the brook and put them in a shepherd's bag.
+    пропущено: chose him
+    лишнее: chosen
+
+    28  100%    4.1 c
+    текст:   Chapter Four. In the name of the Lord.
+    услышано: Chapter 4. In the name of the Lord.
+
+    29  100%    3.3 c
+    текст:   Goliath saw the young man and despised him.
+    услышано: Goliath saw the young man and despised him.
+
+    30   97%    6.5 c
+    текст:   Thou comest to me with a sword, and with a spear, and with a shield: but I come to thee in the name of the Lord of hosts, the God of the armies of Israel.
+    услышано: Thou comes to me with a sword, and with a spear, and with a shield, but I come to thee in the name of the Lord of Hosts, the God of the armies of Israel.
+    пропущено: comest
+    лишнее: comes
+
+    31  100%    4.6 c
+    текст:   The Lord saveth not with sword and spear: for the battle is the Lord's.
+    услышано: The Lord saveth not with sword and spear, for the battle is the Lord's.
+
+    32  100%    4.0 c
+    текст:   David slung a stone, and the stone sank into the giant's forehead.
+    услышано: David slung a stone, and the stone sank into the giant's forehead.
+
+    33  100%    4.3 c
+    текст:   Goliath fell on his face to the earth. When the Philistines saw it, they fled.
+    услышано: Goliath fell on his face to the earth. When the Philistines saw it, they fled.
+
+~   34  100%    6.5 c
+    текст:   The shepherd won not by weapons, but by faith in God.
+    услышано: The shepherd won not by weapons, but by faith in God. You ass-in, here is inherent. All...
+    лишнее: you ass in here is inherent all
+    хвост: «you ass in here is inherent all» — обрезать на 3.06 c от начала фразы
+
+    35  100%    5.1 c
+    текст:   Chapter Five. After the victory.
+    услышано: Chapter 5, After the Victory
+
+    36  100%    4.8 c
+    текст:   After the victory over Goliath, David became a national hero and a commander in Saul's army.
+    услышано: After the victory over Goliath, David became a national hero and a commander in Saul's army.
+
+    37  100%    2.8 c
+    текст:   Saul's son Jonathan became his faithful friend.
+    услышано: Saul's son Jonathan became his faithful friend.
+
+    38  100%    3.1 c
+    текст:   But envy grew in King Saul's heart. That is another story.
+    услышано: But Envy grew in King Saul's heart. That is another story.
+
+    39  100%    2.4 c
+    текст:   Later David became king of Israel.
+    услышано: Later, David became king of Israel.
+
+    40  100%    3.8 c
+    текст:   From his line came the Anointed One whom Israel awaited, Jesus Christ.
+    услышано: From his line came the anointed one whom Israel awaited, Jesus Christ.
+
+    41  100%    3.7 c
+    текст:   Subscribe: a new film on the Bible and Church history every day.
+    услышано: Subscribe, a new film on the Bible and Church history every day.

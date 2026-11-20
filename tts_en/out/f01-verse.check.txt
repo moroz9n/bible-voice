@@ -1,0 +1,23 @@
+f01-verse: фраз 5, проверить: 2
+
+     1  100%    5.4 c
+    текст:   But the Lord said unto Samuel, Look not on his countenance, or on the height of his stature;
+    услышано: But the Lord said unto Samuel, Look not on his countenance, or on the height of his stature.
+
+!!   2   58%    3.5 c
+    текст:   because I have refused him: for the Lord seeth not as man seeth;
+    услышано: because I have refused him, for the Lord's sief not his man's sief."
+    пропущено: lord seeth as man seeth
+    лишнее: lord's sief his man's sief
+
+     3  100%    4.0 c
+    текст:   for man looketh on the outward appearance, but the Lord looketh on the heart.
+    услышано: For man looketh on the outward appearance, but the Lord looketh on the heart.
+
+     4  100%    2.7 c
+    текст:   First Samuel, chapter sixteen, verse seven.
+    услышано: 1 Samuel chapter 16 verse 7.
+
+     5  100%    2.3 c
+    текст:   A new Word every day. Subscribe.
+    услышано: A new word every day. Subscribe!

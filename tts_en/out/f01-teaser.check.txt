@@ -1,0 +1,34 @@
+f01-teaser: фраз 8, проверить: нет
+
+     1  100%    2.1 c
+    текст:   How did a shepherd boy defeat a giant?
+    услышано: How did a shepherd boy defeat a giant?
+
+     2  100%    2.6 c
+    текст:   Goliath of Gath stood six cubits and a span.
+    услышано: Goliath of Gath stood six cubits in a span.
+    лишнее: in
+
+     3  100%    2.3 c
+    текст:   All Israel was afraid to face him.
+    услышано: All Israel was afraid to face him.
+
+     4  100%    3.8 c
+    текст:   But David took his staff, his sling and five smooth stones.
+    услышано: But David took his staff, his sling, and five smooth stones.
+
+     5  100%    2.8 c
+    текст:   But I come to thee in the name of the Lord of hosts.
+    услышано: But I come to thee in the name of the Lord of Hosts.
+
+     6  100%    2.3 c
+    текст:   One stone decided it all, and faith.
+    услышано: One stone decided it all, and faith.
+
+     7  100%    2.6 c
+    текст:   The whole story is in the full film.
+    услышано: The whole story is in the full film.
+
+     8  100%    3.2 c
+    текст:   The link is below.
+    услышано: The link is below.

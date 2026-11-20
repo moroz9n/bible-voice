@@ -1,0 +1,40 @@
+name: Проверка озвучки RU (распознавание речи)
+
+# Сверяет tts_ru/out/<name>.mp3 с текстом по фразам (faster-whisper, русская модель) → tts_ru/out/<name>.check.txt.
+# Запуск вручную: gh workflow run tts_ru_check.yml --ref tts-en
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  TTS_DIR: tts_ru
+  TTS_LANG: ru
+
+jobs:
+  check:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_branch || github.ref_name }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: |
+          pip install faster-whisper numpy
+          sudo apt-get install -y -q ffmpeg
+      - name: Проверить
+        run: for j in tts_ru/out/*.json; do python tts_en/check.py "$(basename "$j" .json)"; done
+      - name: Сохранить
+        run: |
+          BR="${{ github.event.workflow_run.head_branch || github.ref_name }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add tts_ru/out/*.check.txt
+          git commit -m "Проверка озвучки RU [skip ci]" || echo "нет изменений"
+          git pull --rebase origin "$BR"
+          git push origin "HEAD:$BR"

@@ -1,0 +1,92 @@
+name: Озвучка RU (Chatterbox, встроенный голос)
+
+# Русский встроенный голос Chatterbox, ударения: tts_ru/stress.txt + russian_text_stresser. Текст: tts_ru/<name>.txt, одна фраза на строку, числа словами.
+# Запуск: пуш в tts_ru/ или вручную во вкладке Actions. Длинный текст делится на куски и озвучивается параллельно.
+# Результат: tts_ru/out/<name>.mp3 (после tts/clean.py) и tts_ru/out/<name>.json (время каждой фразы) — коммитятся в ту же ветку.
+on:
+  push:
+    paths: ["tts_ru/*.txt", "tts_ru/stress.txt", ".github/workflows/tts_ru.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  TTS_DIR: tts_ru
+  TTS_LANG: ru
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+      names: ${{ steps.m.outputs.names }}
+      any: ${{ steps.m.outputs.any }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: m
+        run: python3 tts_en/plan.py | tee -a "$GITHUB_OUTPUT"
+
+  synth:
+    needs: plan
+    if: needs.plan.outputs.any == '1'
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Установить Chatterbox (CPU)
+        run: |
+          pip install --upgrade pip
+          pip install torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+          pip install chatterbox-tts --extra-index-url https://download.pytorch.org/whl/cpu
+          pip install faster-whisper
+          pip install russian-text-stresser || pip install "git+https://github.com/Vuizur/add-stress-to-epub"
+      - name: Кэш модели
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: chatterbox-mtl-v1
+      - name: Озвучить кусок
+        run: python tts_en/run_en.py "tts_ru/${{ matrix.name }}.txt" ${{ matrix.part }} ${{ matrix.parts }} "parts/${{ matrix.name }}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ttsru-${{ matrix.name }}-${{ matrix.part }}
+          path: parts/
+          retention-days: 3
+
+  join:
+    needs: [plan, synth]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: |
+          pip install numpy soundfile
+          sudo apt-get install -y -q ffmpeg
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: ttsru-*
+          path: parts
+          merge-multiple: true
+      - name: Склеить и почистить
+        run: |
+          for n in ${{ needs.plan.outputs.names }}; do
+            python tts_en/join.py "$n"
+            cat parts/$n/log-*.txt > "tts_ru/out/$n.log.txt" 2>/dev/null || true
+          done
+      - name: Сохранить результат
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add tts_ru/out
+          git commit -m "Озвучка RU: ${{ needs.plan.outputs.names }} [skip ci]" || echo "нет изменений"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

@@ -1,0 +1,259 @@
+d1121-film: фраз 54, проверить: 4 16 17 36
+
+     1  100%    2.3 c
+    текст:   Paul's Shipwreck
+    услышано: Paul's Shipwreck
+
+     2  100%    3.2 c
+    текст:   A storm, a snake, and the road to Rome
+    услышано: a storm, a snake, and the road to Rome.
+
+     3  100%    4.3 c
+    текст:   The last chapters of the Book of Acts tell of the most dangerous voyage of the Apostle Paul.
+    услышано: The last chapters of the book of Acts tell of the most dangerous voyage of the Apostle Paul.
+
+!!   4   67%    3.3 c
+    текст:   Chapter One. A prisoner sails for Rome.
+    услышано: Chapter 1. A Prisoner's Sales for Rome.
+    пропущено: prisoner sails
+    лишнее: prisoner's sales
+
+     5   94%    5.6 c
+    текст:   Paul had spent two years under arrest in Caesarea. Governor Festus sent him to be tried by the emperor.
+    услышано: Paul had spent two years under arrest in Caesarea. Governor Festus sent in to be tried by the emperor.
+    пропущено: him
+    лишнее: in
+
+     6  100%    4.5 c
+    текст:   Paul and other prisoners were handed over to a centurion of the Augustan band named Julius.
+    услышано: Paul and other prisoners were handed over to a centurion of the Augustan band named Julius.
+
+     7  100%    4.6 c
+    текст:   With Paul sailed Luke, the author of Acts, and Aristarchus of Thessalonica.
+    услышано: with Paul sailed Luke, the author of Acts, and Aristarchus of Thessalonica.
+
+     8  100%    3.7 c
+    текст:   Luke writes: we. So he was on this voyage himself.
+    услышано: Luke writes, we, so he was on this voyage himself.
+
+     9  100%    4.3 c
+    текст:   At Sidon, Julius treated Paul kindly and let him visit his friends.
+    услышано: At Sidon, Julius treated Paul kindly and let him visit his friends.
+
+    10   94%    5.9 c
+    текст:   At Myra in Lycia the centurion found a ship of Alexandria, loaded with wheat and bound for Italy.
+    услышано: At Myra in Lycia, the Centurion found a ship of Alexandria loaded with wheat and bound for Adelie. Wit.
+    пропущено: italy
+    лишнее: adelie wit
+
+    11  100%    1.8 c
+    текст:   Chapter Two. The warning.
+    услышано: Chapter 2 The Warning
+
+    12   88%    5.4 c
+    текст:   Contrary winds held them back. With difficulty they reached a bay in Crete called the Fair Havens.
+    услышано: Contre Wens held them back. With difficulty, they reached a bay in Crete called the Fair Havens.
+    пропущено: contrary winds
+    лишнее: contre wens
+
+    13  100%    5.3 c
+    текст:   The Fast. the Day of Atonement. was already past. Autumn had come, the season of storms.
+    услышано: The fast, the day of atonement, was already past. Autumn had come, the season of storms.
+
+    14  100%    4.9 c
+    текст:   Paul warned them: the voyage would bring great harm, not only to the cargo and the ship, but to their lives.
+    услышано: Paul warned them the voyage would bring great harm not only to the cargo and the ship but to their lives.
+
+    15   93%    3.4 c
+    текст:   But the centurion trusted the master and the owner of the ship more than Paul.
+    услышано: But the Censurian trusted the master and the owner of the ship more than Paul.
+    пропущено: centurion
+    лишнее: censurian
+
+!!  16   71%    3.6 c
+    текст:   They decided to sail on to Phenice, a better harbour to spend the winter.
+    услышано: They decided to sail into Venice, a better harbor to spend the winter.
+    пропущено: on to phenice harbour
+    лишнее: into venice harbor
+
+!!  17   50%    1.8 c
+    текст:   Chapter Three. Euroclydon.
+    услышано: Chapter 3, Eurokleiden
+    пропущено: euroclydon
+    лишнее: eurokleiden
+
+    18   81%    5.4 c
+    текст:   A gentle south wind blew, and they set out. Then a violent north-east wind struck. Euroclydon.
+    услышано: A gentle south wind blew and they set out, then a violent northeast wind struck, Eurokleidon.
+    пропущено: north east euroclydon
+    лишнее: northeast eurokleidon
+
+    19   93%    5.5 c
+    текст:   The ship was caught. They could not bear up into the wind, and let her drive.
+    услышано: The ship was caught. It could not bear up into the wind and let her drive.
+    пропущено: they
+    лишнее: it
+
+    20   86%    4.4 c
+    текст:   They bound the ship with ropes, threw out the cargo, and then the ship's tackle.
+    услышано: They bound the ship with ropes, drew out the cargo, and then the ships tackle.
+    пропущено: threw ship's
+    лишнее: drew ships
+
+    21  100%    5.5 c
+    текст:   For many days neither sun nor stars appeared. All hope of being saved was taken away.
+    услышано: For many days neither sun nor stars appeared. All hope of being saved was taken away.
+
+    22  100%    2.5 c
+    текст:   By night an angel of God stood by Paul.
+    услышано: By night, an angel of God stood by Paul.
+
+    23   95%    5.3 c
+    текст:   Fear not, Paul; thou must be brought before Caesar: and, lo, God hath given thee all them that sail with thee.
+    услышано: Fear not, Paul, that must be brought before Caesar, and lo, God hath given thee all them that sail with thee.
+    пропущено: thou
+    лишнее: that
+
+    24  100%    3.6 c
+    текст:   There shall be no loss of any man's life among you, but of the ship.
+    услышано: There shall be no loss of any man's life among you but of the ship."
+
+    25  100%    2.8 c
+    текст:   Chapter Four. The shipwreck.
+    услышано: Chapter 4, The Shipwreck
+
+    26   81%    4.7 c
+    текст:   On the fourteenth night the sailors sensed land was near, and cast four anchors out of the stern.
+    услышано: On the 14th night, the sailor's sensed land was near and cast four anchors out of a stern.
+    пропущено: fourteenth sailors the
+    лишнее: sailor's a
+
+    27  100%    3.6 c
+    текст:   In the dark they tried to escape in the boat and leave everyone behind.
+    услышано: In the dark, they tried to escape in the boat and leave everyone behind.
+
+    28  100%    4.1 c
+    текст:   Paul told the centurion: unless these men stay in the ship, you cannot be saved.
+    услышано: Paul told the centurion, unless these men stay in the ship, you cannot be saved.
+
+    29  100%    4.5 c
+    текст:   The soldiers cut the ropes of the boat, and let her fall into the sea.
+    услышано: The soldiers cut the ropes of the boat and let her fall into the sea.
+
+    30  100%    4.2 c
+    текст:   Before dawn Paul urged them all to eat: not a hair would fall from anyone's head.
+    услышано: Before dawn, Paul urged them all to eat, not a hair would fall from anyone's head.
+
+    31   94%    4.8 c
+    текст:   He took bread, gave thanks to God in the presence of them all, broke it, and began to eat.
+    услышано: He took bread, gave things to God in the presence of them all, broke it, and began to eat.
+    пропущено: thanks
+    лишнее: things
+
+    32  100%    3.1 c
+    текст:   There were two hundred and seventy-six people on board.
+    услышано: There were 276 people on board.
+
+    33  100%    5.0 c
+    текст:   At daybreak the ship ran aground. The bow stuck fast, and the waves broke the stern apart.
+    услышано: At daybreak, the ship ran aground. The bow stuck fast and the waves broke the stern apart.
+
+    34  100%    5.4 c
+    текст:   The soldiers wanted to kill the prisoners, but the centurion, wishing to save Paul, stopped them.
+    услышано: The soldiers wanted to kill the prisoners, but the centurion, wishing to save Paul, stopped them.
+
+    35  100%    3.3 c
+    текст:   And so it came to pass, that they escaped all safe to land.
+    услышано: And so it came to pass that they escaped all safe to land.
+
+~   36  100%    6.5 c
+    текст:   Chapter Five. The island of Melita.
+    услышано: Chapter 5, The Island of Melita. Tzadda Pausen. And dries two other
+    лишнее: tzadda pausen dries other
+    хвост: «tzadda pausen dries other» — обрезать на 3.18 c от начала фразы
+
+    37   92%    4.3 c
+    текст:   The island was called Melita. Today it is Malta, south of Sicily.
+    услышано: The island was called Melida. Today, it is Malta, south of Sicily.
+    пропущено: melita
+    лишнее: melida
+
+    38  100%    4.3 c
+    текст:   The islanders showed them great kindness and lit a fire, for it was raining and cold.
+    услышано: The islanders showed them great kindness and lit a fire, for it was raining and cold.
+
+    39   95%    4.9 c
+    текст:   Paul gathered sticks and laid them on the fire. A viper came out of the heat and fastened on his hand.
+    услышано: Hall gathered sticks and laid them on the fire. A viper came out of the heat and fastened on his hand.
+    пропущено: paul
+    лишнее: hall
+
+    40   95%    5.6 c
+    текст:   The islanders said: this man must be a murderer. But Paul shook it off into the fire and felt no harm.
+    услышано: The Islander said, this man must be a murderer, but Paul shook it off into the fire and felt no harm.
+    пропущено: islanders
+    лишнее: islander
+
+    41   92%    5.7 c
+    текст:   Publius, the chief man of the island, received Paul and his companions for three days.
+    услышано: Hublius, the chief man of the island, received Paul and his companions for three days.
+    пропущено: publius
+    лишнее: hublius
+
+    42  100%    3.8 c
+    текст:   Paul prayed, laid his hands on Publius's sick father, and healed him.
+    услышано: Paul prayed, laid his hands on Publius's sick father, and healed him.
+
+    43  100%    3.4 c
+    текст:   After this, others on the island who had diseases came, and were healed.
+    услышано: After this, others on the island who had diseases came and were healed.
+
+    44  100%    1.5 c
+    текст:   Chapter Six. Rome.
+    услышано: Chapter 6, Rome
+
+    45   88%    6.0 c
+    текст:   Three months later they sailed on a ship of Alexandria named Castor and Pollux. to Syracuse, Rhegium and Puteoli.
+    услышано: Three months later, they sailed on a ship of Alexandria named Castor and Pollux to Syracuse, Regium, and Pudioli.
+    пропущено: rhegium puteoli
+    лишнее: regium pudioli
+
+    46   94%    5.6 c
+    текст:   At Puteoli they found Christian brothers. After seven days Paul set out for Rome along the Appian Way.
+    услышано: At Pudioli, they found Christian brothers. After seven days, Paul set out for Rome along the Appian Way.
+    пропущено: puteoli
+    лишнее: pudioli
+
+    47   94%    5.0 c
+    текст:   The Christians of Rome came out to meet him as far as Appii Forum and the Three Taverns.
+    услышано: The Christians of Rome came out to meet him as far as Apii Forum and the Three Taverns.
+    пропущено: appii
+    лишнее: apii
+
+    48  100%    4.2 c
+    текст:   Whom when Paul saw, he thanked God, and took courage.
+    услышано: whom when Paul saw, he thanked God and took courage.
+
+    49  100%    3.8 c
+    текст:   In Rome Paul was allowed to live by himself, with a soldier who guarded him.
+    услышано: In Rome, Paul was allowed to live by himself with a soldier who guarded him.
+
+    50  100%    5.6 c
+    текст:   He called the Jews of Rome and spoke of the Kingdom of God from morning till evening. Some believed, some did not.
+    услышано: He called the Jews of Rome and spoke of the Kingdom of God from morning till evening. Some believed, some did not.
+
+    51  100%    6.2 c
+    текст:   Preaching the kingdom of God, and teaching those things which concern the Lord Jesus Christ, with all confidence, no man forbidding him.
+    услышано: Preaching the Kingdom of God and teaching those things which concern the Lord Jesus Christ with all confidence, no man forbidding Him.
+
+    52  100%    4.8 c
+    текст:   For two whole years he lived in Rome and received all who came. From here he wrote his epistles.
+    услышано: For two whole years he lived in Rome and received all who came. From here he wrote his epistles.
+
+    53  100%    6.2 c
+    текст:   Here the Book of Acts ends. According to Church tradition, Paul died a martyr in Rome in the year sixty-seven.
+    услышано: Here, the book of Acts ends. According to church tradition, Paul died a martyr in Rome in the year 67.
+
+    54  100%    4.7 c
+    текст:   Subscribe: every day, a new film on the Bible and Church history.
+    услышано: Subscribe every day, a new film on the Bible and Church history.

@@ -1,0 +1,25 @@
+d1121-verse: фраз 6, проверить: нет
+
+     1  100%    2.2 c
+    текст:   The Lord says in the Sermon on the Mount:
+    услышано: The Lord says in the Sermon on the Mount.
+
+     2  100%    4.2 c
+    текст:   But seek ye first the kingdom of God, and his righteousness;
+    услышано: but seek ye first the kingdom of God, and His righteousness.
+
+     3  100%    3.8 c
+    текст:   and all these things shall be added unto you.
+    услышано: and all these things shall be added unto you.
+
+     4  100%    2.8 c
+    текст:   Matthew, chapter six, verse thirty-three.
+    услышано: Matthew chapter 6 verse 33
+
+     5  100%    5.0 c
+    текст:   In the storm, the ship and its cargo were lost. yet God saved all who sailed with Paul.
+    услышано: In the storm, the ship and its cargo were lost, yet God saved all who sailed with Paul.
+
+     6  100%    2.4 c
+    текст:   A new Word every day. Subscribe.
+    услышано: A new word every day. Subscribe!
